@@ -3,8 +3,8 @@
 A Swift wrapper for [News API](https://newsapi.org/)
 
 ## Adding to your project
-for directions on how to add package dependencies to your project visit [Apple's instructions](https://developer.apple.com/documentation/xcode/adding_package_dependencies_to_your_app) 
-After successfully instailling the package import the module like so.
+For directions on how to add package dependencies to your project visit [Apple's instructions](https://developer.apple.com/documentation/xcode/adding_package_dependencies_to_your_app). 
+After successfully instailling the package, import the module like so.
 ````swift
 import SwiftNewsAPI
 ````
