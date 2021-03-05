@@ -10,16 +10,18 @@ import SwiftNewsAPI
 ````
 
 ## Usage
+create a NewsAPI class and pass in your api key
 ````swift
-// create a NewsAPI class and pass in your api key
 let news = NewAPI(apiKey: "yourKey")
-
-// create your desired request and look over [News API documentation](https://newsapi.org/docs) for help
+````
+create your desired request and look over [News API documentation](https://newsapi.org/docs) for passing in the right params
+````swift 
 let everything = EverythingRequest(q: "politics")
 let headlines = TopHeadlinesRequest(country: "us", category: "sports")
 let sources = SourcesRequest() 
-
-// pass in your request
+````
+pass in your request 
+````swift 
 news.get(everything) { (data, res, error) in
     if let error = error {
         print(error.localizedDescription)
